@@ -1,0 +1,20 @@
+body {
+    font:Futura;
+    font-size: 100%;
+    margin:0 auto;
+    padding: 1em;
+}
+h1 { 
+    margin:0;
+    padding: 1em;
+    font-size: 300%;
+    color:white;
+}
+img {
+    float: right;
+    margin: 0 2em 2em 2em;
+}
+p {
+    margin 0;
+    padding-bottom: 1em
+}
