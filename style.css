@@ -2,13 +2,14 @@ body {
     font:Futura;
     font-size: 100%;
     margin:0 auto;
-    padding: 1em;
+    padding: 20px;
 }
 h1 { 
     margin:0;
-    padding: 1em;
+    padding: 40px;
     font-size: 300%;
     color:white;
+    background-color: #06DFD7;
 }
 img {
     float: right;
@@ -16,5 +17,5 @@ img {
 }
 p {
     margin 0;
-    padding-bottom: 1em
+    padding-bottom: 20px;
 }
