@@ -28,7 +28,6 @@ h1 {
   font-size: 17px;
   border-bottom: 3px solid transparent;
 }
-}
 .nav li{
     display:inline;
 }
@@ -42,7 +41,7 @@ h1 {
 }
 
 h3 {
-    color: 6D6D6D; 
+    color: #6D6D6D; 
     margin-left: 60px;
     padding: 20px;
 }
