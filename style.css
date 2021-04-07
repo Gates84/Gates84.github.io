@@ -15,6 +15,7 @@ h1 {
 }
 .topnav {
   overflow: hidden;
+  width: 70%;
   background-color: white;
 }
 .topnav a {
@@ -34,6 +35,7 @@ h1 {
 .topnav a.active {
   border-bottom: 3px solid #06DFD7;
 }
+
 h3 {
     color: 6D6D6D; 
 p {
