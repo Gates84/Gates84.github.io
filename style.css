@@ -32,7 +32,8 @@ h1 {
 }
 .topnav a:hover {
   border-bottom: 3px solid #06DFD7;
-  padding: 8px 40px;
+  padding: 8px;
+    width: 16.66%;
 }
 .topnav a.active {
   border-bottom: 3px solid #06DFD7;
