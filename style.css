@@ -17,7 +17,7 @@ h1 {
   background-color: white;
 }
 .topnav a {
-  float: left;
+  margin: 0 auto;
   display: inline-block;
   color: #06DFD7;
   padding: 8px;
