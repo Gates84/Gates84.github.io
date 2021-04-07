@@ -20,7 +20,7 @@ h1 {
   float: left;
   display: inline-block;
   color: #06DFD7;
-  padding: 0px;
+  padding: 8px;
   text-decoration: none;
   width: 16.66%;
   text-align: center;
@@ -33,7 +33,7 @@ h1 {
 }
 .topnav a:hover {
   border-bottom: 3px solid #06DFD7;
-  padding: 0px;
+  padding: 8px;
     width: 16.66%;
 }
 .topnav a.active {
