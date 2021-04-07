@@ -3,8 +3,6 @@ body {
     color: #6D6D6D;
     font-family: "Futura", medium, sans-serif;
     font-size: 17px;
-    margin:0 auto;
-    padding: 20px;
 }
 h1 { 
     margin:0;
@@ -41,14 +39,17 @@ h1 {
 
 h3 {
     color: 6D6D6D; 
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 60px;
     padding: 20px;
 p {
-    margin-left: 80px;
-    margin-right: 80px;
+    text-align: left;
+    text-indent: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom:0px;
 }
 footer {
-    margin-bottom: 10px;
-    margin-left: 20px;
-        padding: 20px;
+    padding-left: 60px;
+    position: absolute;
+}
