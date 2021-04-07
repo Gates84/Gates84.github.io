@@ -1,10 +1,10 @@
 body {
     Background-color: white;
     color: #6D6D6D;
-    font:Futura;
-    font-size: 100%;
+    font-family: "Futura", sans-serif;
+    font-size: 17px;
     margin:0 auto;
-    padding: 50px;
+    padding: 40px;
 }
 h1 { 
     margin:0;
