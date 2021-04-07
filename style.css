@@ -50,6 +50,7 @@ p {
     padding-bottom:0px;
 }
 footer {
+    padding-top: 80px;
     padding-left: 60px;
     position: absolute;
 }
