@@ -50,9 +50,10 @@ p {
     padding-top: 10px;
     padding-bottom:0px;
 }
+div {
+    padding:80px;
+}
 footer {
-    padding-top: 80px;
     padding-left: 60px;
-    position: absolute;
     background-color: #F6F6F6;
 }
