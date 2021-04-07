@@ -28,6 +28,10 @@ h1 {
   font-size: 17px;
   border-bottom: 3px solid transparent;
 }
+}
+.nav li{
+    display:inline;
+}
 .topnav a:hover {
   border-bottom: 3px solid #06DFD7;
   padding: 8px;
