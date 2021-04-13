@@ -91,4 +91,6 @@ p {
 footer {
     text-align: center;
     background-color: #F6F6F6;
+    position: relative;
+    bottom: 10px;
 }
