@@ -85,8 +85,8 @@ p {
   color: #06DFD7; 
   text-decoration: none;
 }
-Div {
-    padding-bottom: 40px;
+.bottom_spacer {
+    padding: 80px;
 }
 footer {
     text-align: center;
