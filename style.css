@@ -14,38 +14,6 @@ h1 {
 img {
     width: 100%;
     height: auto;
-  }
-.topnav {
-  overflow: hidden;
-  width: 100%;
-  text-align: center;
-  padding: 25px;
-  background-color: white;
-}
-.topnav a {
-  margin: 0 auto;
-  display: inline-block;
-  color: #06DFD7;
-  padding: 15px;
-  text-decoration: none;
-  text-align: center;
-  font-family: "futura", sans-serif;
-  font-size: 17px;
-  border-bottom: 3px solid transparent;
-}
-.nav li{
-    display: inline;
-    width: 16.66%;
-}
-.topnav a:hover {
-  display: inline;
-  border-bottom: 3px solid #06DFD7;
-  width: 16.66%;
-}
-.topnav a.active {
-  display: inline;
-  border-bottom: 3px solid #06DFD7;
-  width: 16.66%;
 }
 h3 {
     color: #6D6D6D; 
