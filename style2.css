@@ -1,0 +1,70 @@
+body {
+  Background-color: white;
+  color: #6D6D6D;
+  font-family: "Futura", medium, sans-serif;
+  font-size: 17px;
+}
+h1 { 
+  margin:0;
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 36px;
+  color:white;
+  background-color: #06DFD7;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.full_banner {
+ display: grid;
+ position: relative;
+}
+h3 {
+  color: #6D6D6D; 
+  padding-left: 100px;
+  padding-bottom: 10px;
+}
+.pro_title {
+  Font-size: 40px;
+  color: #6D6D6D;
+  padding: 5px;
+  text-align: center;
+}
+.layout {
+  max-width: 70%;
+  max-height: 70%;
+  min-width: 60%;
+  min-height: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.container_1 {
+display: flex;
+align-items: center;
+justify-content: center; 
+}
+p {
+  text-align: left;
+  text-indent: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom:0px;
+}
+.reslink a {
+color: #06DFD7; 
+text-decoration: none;
+}
+Div {
+  padding-bottom: 40px;
+}
+footer {
+  text-align: center;
+  position: relative;
+  bottom: 10px; 
+  background-color: #F6F6F6;
+}
