@@ -57,8 +57,10 @@ p {
     padding: 80px;
 }
 footer {
+    color: white;
     text-align: center;
-    background-color: #F6F6F6;
+    background-color: ##06DFD7;
     position: relative;
     bottom: 10px;
+    top-padding: 30px;
 }
