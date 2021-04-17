@@ -15,9 +15,9 @@
         <ul>
             <li><a href="https://gates84.github.io/index2.html#home">Home</a></li>
             <li><a href="https://gates84.github.io/about2.html">About</a></li>
-            <li><a class="active" href="https://gates84.github.io/projects2.html">Projects</a>
+            <li><a href="https://gates84.github.io/projects2.html">Projects</a>
                 <ul>
-                    <li><a href="#link 1">MyZou Redesign</a>
+                    <li><a class="active" href="https://github.com/Gates84/Gates84.github.io/blob/cd84c6f623e9af879ffb0319e490647c85f1f29d/Myzou">MyZou Redesign</a>
                     <li><a href="#link 2">Unify</a>
                     <li><a href="#link 3">Project Manager</a>
                 </ul>
