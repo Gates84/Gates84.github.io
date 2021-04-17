@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+ <link rel="stylesheet" href="style2.css">
+ <link rel="stylesheet" href="nav2.css">
+  <meta charset="utf-8">
+               <title>Projects</title>
+</head>
+<body>
+    <header>
+        <h1>Jeff Gates - UX Designer</h1>
+    </header>
+ <img src="https://gates84.github.io/banner.svg" alt="Portfolio Banner"> 
+<div class="nav">
+        <ul>
+            <li><a href="https://gates84.github.io/index2.html#home">Home</a></li>
+            <li><a href="https://gates84.github.io/about2.html">About</a></li>
+            <li><a class="active" href="https://gates84.github.io/projects2.html">Projects</a>
+                <ul>
+                    <li><a href="#link 1">MyZou Redesign</a>
+                    <li><a href="#link 2">Unify</a>
+                    <li><a href="#link 3">Project Manager</a>
+                </ul>
+            </li>
+            <li><a href="https://gates84.github.io/reflection2.html">Reflection</a></li>
+            <li><a href="https://gates84.github.io/contact2.html">Contact</a></li>
+        </ul>
+    </div>
+<Main>
+    <div class="pro_title">
+        <h3>MyZou</h3>
+    </div>
+     <div class="layout">
+     <img src="webpage assets/myzou layout.png" alt="Myzou Layout">
+    </div>   
+    <div class="container_1">
+        <p> The challenge presented to us was to redesign the MyZou student homepage to increase the usability of the site and the discoverability of information available. A student survey revealed that the greater majority of students found the original site very difficult to navigate. Our biggest constraint was time. We had a three-month deadline to finish the redesign. This included gathering research, analyzing our user data, and figuring out how best to craft a space where students could accomplish all their tasks while keeping the design intuitive and fun to use. The most exciting challenge was designing a way for students to enroll in their semester classes with just three clicks!</p>
+        <img src="webpage assets/enroll.png" alt="Myzou Enroll">
+    </div>
+    <div class="container_2">
+        <p>For this design, I used Sketch to create the research analysis charts, user personas, the site map, and both the low and high fidelity prototypes. After some reflection, I decided to take the class project design and update the layout as I continued more principles of design. I added gradients, lightened the contrast with the gray, and flipped the enrollment layout to create a more natural flow.</p>
+        <img src="webpage assets/old myzou.png" alt="Myzou Old">
+        <img src="webpage assets/Landing Page.png" alt="Myzou new">
+    </div>
+</Main>
+<div>
+</div>
+<Footer>Jeff Gates  jagrxp@umsystem.edu Copyright 2019-2021 All Rights Reserved. 
+</Footer>
+</body>
+</html>
