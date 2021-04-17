@@ -55,6 +55,9 @@ p {
   padding-top: 10px;
   padding-bottom:0px;
 }
+main p: first-child {
+  font-weight: bold;
+}
 .reslink a {
 color: #06DFD7; 
 text-decoration: none;
