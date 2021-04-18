@@ -2,6 +2,7 @@
   width: 100%;
   height: 80px;
   display: flex;
+  text-align: center;
   flex-direction: row;
   list-style-type: none;
   padding: 0;
@@ -10,7 +11,7 @@
   .nav p {
     font-family: "futura", sans-serif;
     color: #06DFD7;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 55px;
     float: left;
     padding: 0px 22px;
@@ -27,7 +28,7 @@
     display: block;
     font-family: "futura", sans-serif;
     color: #06DFD7;
-    font-size: 14px;
+    font-size: 17px;
     padding: 22px 14px;
     text-decoration: none;
   }
