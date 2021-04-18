@@ -22,6 +22,7 @@ img {
  position: relative;
 }
 h3 {
+  font-size: 28px;
   color: #6D6D6D; 
   padding-left: 100px;
   padding-bottom: 10px;
@@ -49,17 +50,22 @@ justify-content: center;
 }
 p {
   text-align: left;
+  text-indent: 30px;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 10px;
   padding-bottom:0px;
 }
-.reflection p: first-child {
-  font-weight: bold;
-  font-size: 130%;
+.reflection {
+  text-align: left;
+  text-indent: 30px;
 }
-.reflection p2:first line {
-  text-indent: 15px;
+.reflection p:first-child::first-letter {
+  font-size: 150%;
+  font-weight: bold;
+}
+.reflection p:first-of-type {
+  text-indent: 0px;
 }
 .reslink a {
 color: #06DFD7; 
