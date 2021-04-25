@@ -163,12 +163,12 @@ footer {
 }
 
 .hello {
-    padding-left: 240px;
+    padding-left: 80px;
 }
 
 .welcome {
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 @media (max-width: 620px) {
