@@ -162,9 +162,13 @@ footer {
     width: 100%;
 }
 
+.hello {
+    padding-left: 240px;
+}
+
 .welcome {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 @media (max-width: 620px) {
