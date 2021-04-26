@@ -25,6 +25,25 @@ p {
     font-size: 20px;
 }
 
+.reflection {
+    text-align: left;
+    text-indent: 30px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding-bottom: 50px;
+}
+
+.reflection p:first-child::first-letter {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.reflection p:first-of-type {
+    text-indent: 0px;
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -69,6 +88,7 @@ footer {
 }
     
 .title {
+    
     font-size: 26px;
     color: #6d6d6d;
     text-align: center;
@@ -76,6 +96,14 @@ footer {
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
+}
+
+.contact {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    padding: 50px;
 }
     
 .center {
@@ -211,6 +239,7 @@ grid-row-end: 9;
         font-size: 26px;
         color: #6d6d6d;
         text-align: center;
+        padding-top: 10px;
         grid-column-start: 2;
         grid-column-end: 4;
         grid-row-start: 3;
@@ -233,6 +262,13 @@ grid-row-end: 9;
         grid-column-end: 5;
         grid-row-start: 5;
         grid-row-end: 6;
+    }
+
+    .contact {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
     }
 
     .split1 {
