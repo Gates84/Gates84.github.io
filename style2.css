@@ -262,9 +262,17 @@ footer {
     h1 {
         color: black; 
         }
-        
+
     }
     .body { 
+        margin-bottom: o;
+        border: none;
+        margin-left: 1in;
+        margin-right: 1in;
+        color: black;
+    }
+
+    footer { 
         margin-bottom: o;
         border: none;
         margin-left: 1in;
