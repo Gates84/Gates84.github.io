@@ -1,3 +1,8 @@
+@font-face { 
+    font-family: "exensa";
+    src: url("https://github.com/Gates84/Gates84.github.io/blob/eb5dc5920d7919fdbdd40e7b76a061b99abf3bdd/ExensaGrotesk-Regular.ttf");
+}
+
 .nav {
     justify-content: center;
     Width: 100%;
@@ -15,7 +20,7 @@
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    font-family: "futura", sans-serif;
+    font-family: "exensa";
     font-size: 17px;
     border-bottom: 3px solid transparent
 }
@@ -35,7 +40,7 @@
 
 .nav ul li a {
     display: flex;
-    font-family: "futura", sans-serif;
+    font-family: "exensa";
     color: #06DFD7;
     font-size: 17px;
     padding: 15px 15px;

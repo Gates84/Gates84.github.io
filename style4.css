@@ -1,6 +1,11 @@
+@font-face { 
+    font-family: "exensa";
+    src: url("https://github.com/Gates84/Gates84.github.io/blob/eb5dc5920d7919fdbdd40e7b76a061b99abf3bdd/ExensaGrotesk-Regular.ttf");
+}
+
 body {
     color: #6d6d6d;
-    font-family: "Futura", medium, sans-serif;
+    font-family: "exensa";
     font-size: 17px;
 }
     
@@ -21,7 +26,7 @@ main {
 }
 
 p {
-    font-family: "Futura", medium, sans-serif;
+    font-family: "exensa";
     font-size: 20px;
 }
 
@@ -213,7 +218,7 @@ grid-row-end: 9;
     }
 
     p {
-        font-family: "Futura", medium, sans-serif;
+        font-family: "exensa";
         font-size: 18px;
     }
 
