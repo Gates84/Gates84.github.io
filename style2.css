@@ -258,6 +258,12 @@ footer {
         margin-right: 1in;
         color: black; 
     }
+
+    h1 {
+        color: black; 
+        }
+        
+    }
     .body { 
         margin-bottom: o;
         border: none;
