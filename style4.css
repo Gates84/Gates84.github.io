@@ -347,6 +347,14 @@ grid-row-end: 9;
         display: none;
     }
     
+    .header {
+        margin-bottom: o;
+        border: none;
+        margin-left: 1in;
+        margin-right: 1in;
+        color: black; 
+    }
+
     .body { 
         margin-bottom: o;
         border: none;
@@ -354,4 +362,4 @@ grid-row-end: 9;
         margin-right: 1in;
         color: black;
     }
-    }
+}
