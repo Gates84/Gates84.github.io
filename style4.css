@@ -338,4 +338,20 @@ grid-row-end: 9;
         bottom: 0px;
         width: 100%;
 }
-}
+
+/*Print stylesheet*/
+
+@media print {
+    .nav,
+    .media {
+        display: none;
+    }
+    
+    .body { 
+        margin-bottom: o;
+        border: none;
+        margin-left: 1in;
+        margin-right: 1in;
+        color: black;
+    }
+    }

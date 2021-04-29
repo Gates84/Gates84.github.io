@@ -243,4 +243,19 @@ footer {
         width: 100%;
         font-size: 12px;
     }
+/*Print stylesheet*/
+
+@media print {
+    .nav,
+    .media {
+        display: none;
+    }
+    
+    .body { 
+        margin-bottom: o;
+        border: none;
+        margin-left: 1in;
+        margin-right: 1in;
+        color: black;
+    }
 }
