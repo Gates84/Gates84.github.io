@@ -56,6 +56,11 @@ body {
     justify-items: center;
 }
 
+iframe {
+    width: 460px;
+    height: 315px; 
+}
+
 .quote {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -146,6 +151,7 @@ main p {
     margin-right: auto;
 }
 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 .reslink {
     padding-left: 80px;
 }
@@ -222,6 +228,12 @@ footer {
         grid-row-end: 5;
         padding-top: 8px;
     }
+
+    iframe {
+        width: 360px;
+        height: 215px;   
+    }
+
     .quote {
         grid-column-start: 1;
         grid-column-end: 3;
