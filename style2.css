@@ -252,6 +252,7 @@ br {
         font-size: 16px;
         padding: 5px;
     }
+
     .media {
         grid-column-start: 1;
         grid-column-end: 3;
@@ -317,8 +318,6 @@ br {
     footer { 
         margin-bottom: 0;
         border: none;
-        margin-left: 1in;
-        margin-right: 1in;
         color: black;
     }
 }
