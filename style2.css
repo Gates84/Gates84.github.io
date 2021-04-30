@@ -80,19 +80,6 @@ iframe {
     font-size: 30px;
 }
 
-.footer {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 6;
-    grid-row-end: 7;
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 h1 {
     margin: 0;
     padding-left: 25px;
@@ -174,6 +161,19 @@ main p {
 
 br {
     height: 50px;
+}
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .email {
