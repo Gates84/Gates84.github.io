@@ -82,7 +82,7 @@ footer {
     
 .nav {
     display: flex;
-    flex-direction: left;
+    flex-direction: row;
     width: 100%;
     margin: auto;
     text-align: center;
@@ -134,7 +134,7 @@ footer {
 
 .split1 {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 6;
@@ -165,7 +165,7 @@ footer {
 
 .split2 {
 display: flex;
-flex: wrap;
+flex-wrap: wrap;
 padding: 10px;
 grid-column-start: 1;
 grid-column-end: 5;
@@ -261,7 +261,7 @@ grid-row-end: 9;
         
     .nav {
         display: flex;
-        flex-direction: left;
+        flex-direction: row;
         width: 100%;
         margin: auto;
         text-align: center;
