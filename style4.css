@@ -61,7 +61,7 @@ br {
     
 footer {
     text-align: center;
-    background-color: #06dfd7;
+    background-image: url(https://gates84.github.io/footer%20background.png);
     padding: 10px;
     width: 100%;
 }
@@ -193,6 +193,23 @@ grid-row-end: 9;
     position: relative;
     bottom: 0px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.email {
+    width: 2%;
+    height: 2%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.phone {
+    width: 2%;
+    height: 2%;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 @media (max-width: 620px) {
