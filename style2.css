@@ -10,10 +10,46 @@ body {
     font-size: 17px;
 }
 
+h1 {
+    margin: 0;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 36px;
+    color: white;
+    background-color: #06dfd7;
+}
+
+h3 {
+    font-size: 28px;
+    color: #6d6d6d;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: "exensa";
+    font-size: 20px;
+}
+
 img {
     max-width: 100%;
     display: block;
     justify-content: center;
+}
+
+main {
+    display: contents;
+    flex-wrap: wrap;
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+main p {
+    text-align: left;
+    text-indent: 30px;
+    padding: 15px;
 }
 
 footer {
@@ -86,47 +122,11 @@ iframe {
     font-size: 30px;
 }
 
-h1 {
-    margin: 0;
-    padding-left: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 36px;
-    color: white;
-    background-color: #06dfd7;
-}
-
-h3 {
-    font-size: 28px;
-    color: #6d6d6d;
-    padding-left: 100px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-
-p {
-    font-family: "exensa";
-    font-size: 20px;
-}
-
 .pro_title {
     font-size: 40px;
     color: #6d6d6d;
     padding: 5px;
     text-align: center;
-}
-
-main {
-    display: contents;
-    flex-wrap: wrap;
-    grid-column: 1/4;
-    grid-row: 3/4;
-}
-
-main p {
-    text-align: left;
-    text-indent: 30px;
-    padding: 15px;
 }
 
 .reflection {
