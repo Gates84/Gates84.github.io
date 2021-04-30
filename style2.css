@@ -10,6 +10,12 @@ body {
     font-size: 17px;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+    justify-content: center;
+}
+
 footer {
     text-align: center;
     background-image: url(https://gates84.github.io/footer%20background.png);
@@ -88,12 +94,6 @@ h1 {
     font-size: 36px;
     color: white;
     background-color: #06dfd7;
-}
-
-img {
-    max-width: 100%;
-    display: block;
-    justify-content: center;
 }
 
 h3 {
