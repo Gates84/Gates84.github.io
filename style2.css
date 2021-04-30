@@ -83,8 +83,8 @@ iframe {
 .footer {
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row-start: 9;
-    grid-row-end: 10;
+    grid-row-start: 6;
+    grid-row-end: 7;
     position: relative;
     bottom: 0px;
     width: 100%;
