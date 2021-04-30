@@ -34,7 +34,7 @@ footer {
 
 .nav {
     display: flex;
-    flex-direction: left;
+    flex-direction:row;
     width: 100%;
     margin: auto;
     text-align: center;
@@ -224,7 +224,7 @@ br {
         text-align: center;
     }
     .nav {
-        font-size: 12;
+        font-size: 12px;
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 2;
@@ -295,7 +295,7 @@ br {
     }
     
     .header {
-        margin-bottom: o;
+        margin-bottom: 0;
         border: none;
         margin-left: 1in;
         margin-right: 1in;
@@ -307,7 +307,7 @@ br {
 
     }
     .body { 
-        margin-bottom: o;
+        margin-bottom: 0;
         border: none;
         margin-left: 1in;
         margin-right: 1in;
@@ -315,7 +315,7 @@ br {
     }
 
     footer { 
-        margin-bottom: o;
+        margin-bottom: 0;
         border: none;
         margin-left: 1in;
         margin-right: 1in;
