@@ -10,6 +10,13 @@ body {
     font-size: 17px;
 }
 
+footer {
+    text-align: center;
+    background-image: url(https://gates84.github.io/footer%20background.png);
+    padding: 10px;
+    width: 100%;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: 15% 35% 35% 15%;
@@ -76,10 +83,14 @@ iframe {
 .footer {
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row-start: 6;
+    grid-row-start: 9;
+    grid-row-end: 10;
     position: relative;
     bottom: 0px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 h1 {
@@ -151,7 +162,6 @@ main p {
     margin-right: auto;
 }
 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 .reslink {
     padding-left: 80px;
 }
@@ -171,6 +181,34 @@ footer {
     background-color: #06dfd7;
     padding: 10px;
     width: 100%;
+}
+
+.email {
+    width: 2%;
+    height: 2%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.email:hover {
+    width: 2.2%;
+    height: 2.2%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.phone {
+    width: 2%;
+    height: 2%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.phone:hover {
+    width: 2.2%;
+    height: 2.2%;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .hello {
