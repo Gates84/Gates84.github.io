@@ -205,9 +205,23 @@ grid-row-end: 9;
     padding-right: 8px;
 }
 
+.email:hover {
+    width: 2.2%;
+    height: 2.5%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
 .phone {
     width: 2%;
     height: 2%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.phone:hover {
+    width: 2.2%;
+    height: 2.2%;
     padding-left: 8px;
     padding-right: 8px;
 }
