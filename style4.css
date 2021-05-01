@@ -62,8 +62,6 @@ br {
 footer {
     text-align: center;
     background-image: url(https://gates84.github.io/footer%20background.png);
-    padding: 10px;
-    width: 100%;
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 9;
