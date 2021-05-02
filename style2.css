@@ -53,10 +53,20 @@ main p {
 }
 
 footer {
-    text-align: center;
-    background-image: url(https://gates84.github.io/footer%20background.png);
-    padding: 10px;
-    width: 100%;
+        text-align: center;
+        background-image: url(https://gates84.github.io/footer%20background.png);
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 7;
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: auto;
 }
 
 .wrapper {
@@ -164,24 +174,13 @@ br {
     height: 50px;
 }
 
-.footer {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 6;
-    grid-row-end: 7;
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .email {
     width: 2%;
     height: 2%;
     padding-left: 8px;
     padding-right: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .email:hover {
@@ -189,6 +188,8 @@ br {
     height: 2.2%;
     padding-left: 8px;
     padding-right: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .phone {
@@ -196,6 +197,8 @@ br {
     height: 2%;
     padding-left: 8px;
     padding-right: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .phone:hover {
@@ -203,6 +206,8 @@ br {
     height: 2.2%;
     padding-left: 8px;
     padding-right: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .hello {
@@ -284,9 +289,38 @@ br {
         grid-row-start: 6;
         grid-row-end: 7;
         position: relative;
-        bottom: 0px;
         width: 100%;
-        font-size: 12px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .email {
+        width: 5%;
+        height: 5%;
+        padding-left: 8px;
+        padding-right: 8px;
+        align-content: center;
+    }
+    
+    .email:hover {
+        width: 6%;
+        height: 6%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    .phone {
+        width: 5%;
+        height: 5%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    .phone:hover {
+        width: 6%;
+        height: 6%;
+        padding-left: 8px;
+        padding-right: 8px;
     }
 /*Print stylesheet*/
 
