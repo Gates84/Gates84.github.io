@@ -72,6 +72,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
     
 .wrapper {
@@ -196,6 +198,14 @@ grid-row-end: 9;
     width: 40%;
     height: auto;
     padding: 50px;
+}
+
+.image5 {
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    Padding: 0px 20px 0px 20px;    
 }
 
 .email {
