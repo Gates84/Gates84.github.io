@@ -16,7 +16,7 @@ h1 {
     padding-bottom: 15px;
     font-size: 36px;
     color: white;
-    background-color: #06dfd7
+    background-color: #02C9CE
 }
 
 main {
@@ -208,6 +208,48 @@ grid-row-end: 9;
     Padding: 0px 20px 0px 20px;    
 }
 
+figure {
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start:auto;
+    grid-row-end:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    visibility: hidden;
+}
+
+table th {
+    text-align: left;
+    background-color: #02C9CE;
+    border: 1px solid #02C9CE;
+    color: white;
+    padding: 8px 16px;
+    
+}
+
+table tbody {
+    border: 1px solid #02C9CE;
+    padding: 8px 16px;
+}
+
+table td {
+    padding: 8px 16px;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #f1f1f1;
+}
+
+table tr:nth-child(even) td {
+    background-color: #f7f7f7;
+}
 .email {
     width: 2%;
     height: 2%;
@@ -263,7 +305,7 @@ grid-row-end: 9;
        text-align: center;
         font-size: 24px;
         color: white;
-        background-color: #06dfd7
+        background-color: #02C9CE
     }
 
     p {
@@ -309,6 +351,14 @@ grid-row-end: 9;
         height: auto;
         margin-left: auto;
         margin-right: auto;
+        justify-content: center;
+    }
+
+    figure {
+        width: 100%;
+        margin-left:auto;
+        margin-right:auto;
+        grid-column-start: 1;
     }
     
     .p_1 {

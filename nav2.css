@@ -15,7 +15,7 @@
 
 .nav a {
     display: inline;
-    color: #06DFD7;
+    color: #02C9CE;
     padding: 10px;
     text-decoration: none;
     text-align: center;
@@ -29,7 +29,7 @@
 }
 
 .nav ul a:hover {
-    border-bottom: 3px solid #06DFD7;
+    border-bottom: 3px solid #02C9CE;
 }
 
 .nav ul li {
@@ -40,7 +40,7 @@
 .nav ul li a {
     display: flex;
     font-family: "exensa";
-    color: #06DFD7;
+    color: #02C9CE;
     font-size: 17px;
     padding: 15px 15px;
     text-decoration: none;
@@ -70,9 +70,9 @@
 }
 
 .nav ul li ul li a:hover {
-    border-bottom: 3px solid #06DFD7
+    border-bottom: 3px solid #02C9CE
 }
 
 .nav a.active {
-    border-bottom: 3px solid #06DFD7;
+    border-bottom: 3px solid #02C9CE;
 }
