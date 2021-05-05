@@ -1,82 +1,135 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
- <link rel="stylesheet" href="style4.css">
- <link rel="stylesheet" href="nav2.css">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <!--
+  <head>
+    <link rel="stylesheet" href="style4.css" />
+    <link rel="stylesheet" href="nav2.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
  Coded by: Jeff Gates
  Date: March 17, 2021
  Content: html for Jeff Gates' portfolio contact page
- -->    
+ -->
     <title>Contact</title>
-    <link rel="icon" type="image/png" href="https://gates84.github.io/logo.png">
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://gates84.github.io/logo.png"
+    />
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="header">
-            <header>
-            <h1>Jeff Gates - UX Designer</h1>
-            </header>
-            <img src="https://gates84.github.io/newbanner.png" alt="Portfolio Banner"> 
-        </div>
-            <div class="nav">
+      <div class="header">
+        <header>
+          <h1>Jeff Gates - UX Designer</h1>
+        </header>
+        <img
+          src="https://gates84.github.io/newbanner.png"
+          alt="Portfolio Banner"
+        />
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="https://gates84.github.io/index2.html#home">Home</a></li>
+          <li><a href="https://gates84.github.io/about2.html">About</a></li>
+          <li>
+            <a href="https://gates84.github.io/Myzou.html">Projects</a>
             <ul>
-                <li><a href="https://gates84.github.io/index2.html#home">Home</a></li>
-                <li><a href="https://gates84.github.io/about2.html">About</a></li>
-                <li><a href="https://gates84.github.io/Myzou.html">Projects</a>
-                    <ul>
-                        <li><a  href="https://gates84.github.io/Myzou.html">MyZou Redesign</a>
-                        <li><a href="https://gates84.github.io/Unify.html">Unify</a>
-                        <li><a href="https://gates84.github.io/Project%20Manager.html">Project Manager</a>
-                    </ul>
-                </li>
-                <li><a href="https://gates84.github.io/reflection2.html">Reflection</a></li>
-                <li><a class="active" href="https://gates84.github.io/contact2.html">Contact</a></li>
+              <li>
+                <a href="https://gates84.github.io/Myzou.html"
+                  >MyZou Redesign</a
+                >
+              </li>
+              <li><a href="https://gates84.github.io/Unify.html">Unify</a></li>
+              <li>
+                <a href="https://gates84.github.io/Project%20Manager.html"
+                  >Project Manager</a
+                >
+              </li>
             </ul>
-        </div>
-        <Main>  
+          </li>
+          <li>
+            <a href="https://gates84.github.io/reflection2.html">Reflection</a>
+          </li>
+          <li>
+            <a class="active" href="https://gates84.github.io/contact2.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <main>
         <h3 class="title">Contact</h3>
         <div class="contact">
-            <figure style="float: left">  
+            <div class="info">
+                <figure style="float: left">
                 <table>
-                    <caption>Contact Information</caption>
-                    <thead>
-                        <tr>
-                            <th scope="col">Contact</th>
-                            <th scope="col">Info</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                        <th scope="row" class="th-inner">Email</th>
-                        <td>jeff.allen.gates@gmail.com</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" class="th-inner">Phone</th>
-                        <td>(417) 631-1307</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" class="th-inner">LinkedIn</th>
-                        <td>https://www.linkedin.com/in/jeff-gates-1a7338168/</td>
-                    </tr>
-                    </tbody>
-                </table>
+                <caption>
+                  Contact Information
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Contact</th>
+                    <th scope="col">Info</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" class="th-inner">Email</th>
+                    <td>jeff.allen.gates@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="th-inner">Phone</th>
+                    <td>(417) 631-1307</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="th-inner">LinkedIn</th>
+                    <td>https://www.linkedin.com/in/jeff-gates-1a7338168/</td>
+                  </tr>
+                </tbody>
+              </table>
             </figure>
+            </div>
+            <div class="form">
+            <form action="jeff.allen.gates@gmail.com" method="post">
+              <div>
+                <label for="first name">First Name</label>
+                <input type="text" name="first name" id="first name" required />
+              </div>
+              <div>
+                <label for="last name">Last Name</label>
+                <input type="text" name="last name" id="last name" required />
+              </div>
+              <div>
+                <label for="Email">Email</label>
+                <input type="email" name="email" id="email" required />
+              </div>
+              <div>
+                <label for="subject">Subject</label>
+                <input type="subject" name="subject" id="subject" Value="Portfolio Website"/>
+              </div>
+              <div>
+                <label for="Message">Message</label>
+                <input type="text" name="message" id="message" required />
+              </div>
+              <div>
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+            </div>
         </div>
-        </Main>
-        <Footer class="footer">
-            <p>Jeff Gates - Copyright 2019-2021 All Rights Reserved.</p> 
-            <div class="email">
-            <img src="Email%20Icon.png" alt="email icon">
-            </div>
-            <p>jagrxp@umsystem.edu</p>
-            <div class="phone">
-            <img src="Phone%20Icon.png" alt="phone icon">
-            </div>
-            <p>1+(888) 888-8888</p>
-        </Footer>
-       </div>
-</body>
+      </main>
+      <footer class="footer">
+        <p>Jeff Gates - Copyright 2019-2021 All Rights Reserved.</p>
+        <div class="email">
+          <img src="Email%20Icon.png" alt="email icon" />
+        </div>
+        <p>jagrxp@umsystem.edu</p>
+        <div class="phone">
+          <img src="Phone%20Icon.png" alt="phone icon" />
+        </div>
+        <p>1+(888) 888-8888</p>
+      </footer>
+    </div>
+  </body>
 </html>
