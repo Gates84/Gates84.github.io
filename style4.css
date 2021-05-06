@@ -222,7 +222,7 @@ figure {
 table {
     border-collapse: collapse;
     padding: 20px;
-    font-family: "ExensaGrotesk-Regular";
+    font-family: "Exensa";
     font-size: 18px;
 }
 
@@ -268,7 +268,7 @@ label {
     margin: auto;
     display: inline-block;
     width: 80px;
-    font-family: "ExensaGrotesk-Regular";
+    font-family: "Exensa";
     font-size: 18px;
 }
 
@@ -290,7 +290,7 @@ button {
     border-radius: 50px;
     text-align: center;
     justify-self: center;
-    font-family: "ExensaGrotesk-Regular";
+    font-family: "Exensa";
     background-color:#F7F7F7;
     cursor: pointer;
 }
