@@ -6,7 +6,7 @@
 body {
     color: #6d6d6d;
     font-family: "exensa";
-    font-size: 17px;
+    font-size: 18px;
 }
     
 h1 {
@@ -222,6 +222,8 @@ figure {
 table {
     border-collapse: collapse;
     padding: 20px;
+    font-family: "ExensaGrotesk-Regular";
+    font-size: 18px;
 }
 
 caption {
@@ -261,22 +263,36 @@ form {
 }
 
 label {
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
     display: inline-block;
     width: 80px;
+    font-family: "ExensaGrotesk-Regular";
+    font-size: 18px;
 }
 
 input {
     display:inline-block;
-    width: 200px;
+    width: 255px;
 
 }
 
 button {
-    display: block;
+    display: flex;
+    justify-content: center;
     margin:auto;
     margin-top: 20px;
-    
+    outline: none;
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 50px;
+    text-align: center;
+    justify-self: center;
+    font-family: "ExensaGrotesk-Regular";
+    background-color:#F7F7F7;
+    cursor: pointer;
 }
 
 .email {
@@ -389,7 +405,81 @@ button {
         margin-right:auto;
         grid-column-start: 1;
     }
+
+    table {
+        border-collapse: collapse;
+        padding: 25px;
+        font-family: "ExensaGrotesk-Regular";
+        font-size: 18px;
+    }
     
+    caption {
+        visibility: hidden;
+    }
+    
+    table th {
+        text-align: left;
+        background-color: #02C9CE;
+        border: 1px solid #02C9CE;
+        color: white;
+        padding: 8px 8px;
+    }
+    
+    table tbody {
+        border: 1px solid #02C9CE;
+        padding: 4px 8px;
+    }
+    
+    table td {
+        padding: 4px 8px;
+    }
+    
+    table tr:nth-child(odd) td {
+        background-color: #f1f1f1;
+    }
+    
+    table tr:nth-child(even) td {
+        background-color: #f7f7f7;
+    }
+    
+    form {
+        display: block;
+        justify-content: center;
+        background-color: #02c9ce;
+        margin: auto;
+        color: white;
+    }
+    
+    label {
+        margin: auto;
+        display: inline-block;
+        width: 80px;
+        font-family: "ExensaGrotesk-Regular";
+        font-size: 18px;
+    }
+    
+    input {
+        display:inline-block;
+        width: 255px;
+    }
+    
+    button {
+        display: flex;
+        justify-content: center;
+        margin:auto;
+        margin-top: 20px;
+        outline: none;
+        border: none;
+        padding: 8px;
+        font-size: 18px;
+        border-radius: 50px;
+        text-align: center;
+        justify-self: center;
+        font-family: "ExensaGrotesk-Regular";
+        background-color:#F7F7F7;
+        cursor: pointer;
+    }
+
     .p_1 {
         grid-column-start: 1;
         grid-column-end: 5;
