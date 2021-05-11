@@ -1,0 +1,167 @@
+    @font-face { 
+        font-family: "exensa";
+        src: url("https://github.com/Gates84/Gates84.github.io/blob/eb5dc5920d7919fdbdd40e7b76a061b99abf3bdd/ExensaGrotesk-Regular.ttf");
+    }
+
+    * {
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    nav {
+        height: 10vh;
+        color: white;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }
+
+    .nav-links {
+        display: flex;
+        list-style: none;
+        width: 40%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav-links li a {
+        color: white;
+        display: inline-block;
+        font-family: "exensa";
+        font-size: 18px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .nav-links a {
+        display: inline;
+        color: #02C9CE;
+        padding: 8px;
+        text-decoration: none;
+        text-align: center;
+        font-family: "exensa";
+        font-size: 18px;
+        border-bottom: 3px solid transparent
+    }
+    
+    .nav-links a:hover {
+        border-bottom: 3px solid white;
+    }
+    
+    .nav-links li {
+        list-style: none;
+        position: relative;
+    }
+    
+    .nav-links li ul {
+        display: none;
+        position: absolute;
+        background-color:#02C9CE;
+        width: 80px;
+        height: 130px;
+    }
+    
+    .nav-links li:hover ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav-links li ul li {
+        width: 34px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .nav-links li ul li a {
+        padding: 2px;
+        justify-content: center;
+    }
+    
+    .nav-links li ul li a:hover {
+        border-bottom: 3px solid #E16060;
+    }
+    
+    .nav-links a.active {
+        border-bottom: 3px solid #E16060;
+    }
+
+    @media screen and (max-width: 850px) {
+    .nav-links li a {
+        color: white;
+        display: inline-block;
+        font-family: "exensa";
+        font-size: 18px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .nav-links a {
+        display: inline;
+        color: #02C9CE;
+        padding: 8px;
+        text-decoration: none;
+        text-align: center;
+        font-family: "exensa";
+        font-size: 16px;
+        border-bottom: 3px solid transparent
+    }
+}
+
+    @media screen and (max-width: 768px) 
+    {
+    
+        .header {
+            z-index: 1;
+            display:inline-block;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        .line {
+            width: 30px;
+            height: 3px;
+            background-color: white;
+            margin: 5px;
+        }
+
+        nav {
+            position:relative;
+            height: 0px;
+            
+        }
+    
+        .hamburger {
+            position: absolute;
+            cursor: pointer;
+            right: 5%;
+            top: -18px;
+            transform: translate(-5%, -50%);
+            z-index: 2;
+        }
+
+        .nav-links {
+        position: fixed;
+        background-color:#02C9CE;
+        height: 80%;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(100px at 90% -20%);
+        -webkit-clip-path: circle(100px at 90% -20%);
+        transition: all 1s ease-out;
+        z-index: 1;
+}
+
+.nav-links.open {
+    clip-path: circle(628px at 75% -10%);
+    -webkit-clip-path: circle(628px at 75% -10%);
+    z-index: 2;
+}
+
+.nav-links li ul {
+    background-color: #11BBBF;
+    z-index: 2;
+}   
+}
+    
