@@ -154,8 +154,8 @@
 }
 
 .nav-links.open {
-    clip-path: circle(628px at 75% -10%);
-    -webkit-clip-path: circle(628px at 75% -10%);
+    clip-path: circle(750px at 90% -10%);
+    -webkit-clip-path: circle(750px at 90% -10%);
     z-index: 2;
 }
 
