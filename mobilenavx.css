@@ -87,6 +87,12 @@
         border-bottom: 3px solid #E16060;
     }
 
+    .nav-drop a.active {
+        color: #E16060;
+        border-bottom: none;
+    }
+
+
     @media screen and (max-width: 850px) {
     .nav-links li a {
         color: white;

@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="nav2.css">
+    <link rel="stylesheet" href="mobilenavx.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--
@@ -20,25 +20,30 @@
         <div class="header">
             <header>
                 <h1>Jeff Gates - UX Designer</h1>
-            </header>
-            <img src="https://gates84.github.io/newbanner.png" alt="Portfolio Banner">
-        </div>
-        <div class="nav">
-            <ul>
-                <li><a href="https://gates84.github.io/index2.html#home">Home</a></li>
-                <li><a class="active" href="https://gates84.github.io/about2.html">About</a></li>
-                <li><a href="https://gates84.github.io/Myzou.html">Projects</a>
-                    <ul>
-                        <li><a href="https://gates84.github.io/Myzou.html">MyZou Redesign</a>
-                            <li><a href="https://gates84.github.io/Unify.html">Unify</a>
+                <nav>
+                    <div class="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="https://gates84.github.io/Index3.html">Home</a></li>
+                        <li><a class="active" href="https://gates84.github.io/about2.html">About</a></li>
+                        <li><a href="https://gates84.github.io/Myzou.html">Projects</a>
+                            <ul class="nav-drop">
+                                <li><a  href="https://gates84.github.io/Myzou.html">MyZou Redesign</a>
+                                <li><a href="https://gates84.github.io/Unify.html">Unify</a>
                                 <li><a href="https://gates84.github.io/Project%20Manager.html">Project Manager</a>
+                            </ul>
+                        </li>
+                        <li><a href="https://gates84.github.io/reflection2.html">Reflection</a></li>
+                        <li><a href="https://gates84.github.io/contact2.html">Contact</a></li>
                     </ul>
-                    </li>
-                    <li><a href="https://gates84.github.io/reflection2.html">Reflection</a></li>
-                    <li><a href="https://gates84.github.io/contact2.html">Contact</a></li>
-            </ul>
+                </nav>
+            </header>
         </div>
-        <main>
+        <Main>
+            <img src="https://gates84.github.io/newbanner.png" alt="Portfolio Banner" class="portfolio_banner">
                 <div class=" about ">
                     <h3>About Me</h3>
                     <p>Hi, I’m Jeff.<br>
@@ -59,6 +64,7 @@
                 <blockquote>Every <em>great</em> design begins with an even <em>better</em> story - <strong>Lorinda Mamo</strong></blockquote>
         </div>    
                 <br>
+                <script src="portfolio.js"></script>
         </main>
         <Footer class="footer">
             <p>Jeff Gates - Copyright 2019-2021 All Rights Reserved.</p> 
