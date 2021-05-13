@@ -22,12 +22,76 @@ h1 {
 main {
     display: contents;
     flex-wrap: wrap;
-    grid-column: 2/3;
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+main p {
+    text-align: left;
+    text-indent: 30px;
+    padding: 15px;
 }
 
 p {
     font-family: "exensa";
     font-size: 20px; 
+}
+
+.about {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 35px;
+    padding-bottom: 70px;
+}
+
+.media {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    padding-top: 170px;
+    justify-items: center;
+}
+
+iframe {
+    width: 460px;
+    height: 315px; 
+}
+
+.quote {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: lightgrey;
+    text-align: center;
+    width: 100%;
+    height: 90px;
+    font-size: 30px;
+}
+
+.video {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reslink {
+    padding-left: 80px;
+}
+
+.reslink a {
+    color: #02C9CE;
+    text-decoration: none;
+    text-align: center;
+}
+
+br {
+    height: 50px;
 }
 
 .reflection {
@@ -345,6 +409,7 @@ button {
         grid-column-end: 5;
         grid-row-start: 1;
         grid-row-end: 2;
+        position: relative;
     }
 
     h1 {
